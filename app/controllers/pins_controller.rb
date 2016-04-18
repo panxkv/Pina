@@ -21,3 +21,4 @@ class PinsController < ApplicationController
       params.require(:pin).permit(:title, :description)
     end
 end
+end
