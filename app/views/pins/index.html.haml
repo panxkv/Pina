@@ -1,1 +1,4 @@
-%h1 To jest index pinów
+= link_to "New Pin", new_pin_path, class: "btn btn-primary"
+
+- @pins.each do |pin|
+  %h2= link_to pin.title, pin
