@@ -14,6 +14,7 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'html2haml'
 gem 'devise', '~> 4.0'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'masonry-rails', '~> 0.2.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
